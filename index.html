@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burjukadi Pravalika | Developer Portfolio</title>
+  <meta name="description" content="Personal portfolio showcasing projects, source code, and developer skills." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-theme="dark">
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+
+      <a href="#hero" class="brand-logo">&lt;<span>Pravalika</span> /&gt;</a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects &amp; Code</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme" title="Toggle Light/Dark Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-toggle" class="hamburger" aria-label="Toggle mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-container">
+
+      <div class="hero-content">
+
+        <div class="badge-status">
+          <span class="pulse-dot"></span>
+          Available for opportunities &amp; collaborations
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="highlight">Burjukadi Pravalika</span>
+        </h1>
+
+        <h2 class="hero-subtitle">
+          Python Developer &amp; Cyber Security Enthusiast
+        </h2>
+
+        <p class="hero-description">
+          I am a final-year B.Tech CSE (Cyber Security) student passionate about Python development, problem-solving, and building secure and practical applications.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            View Projects
+          </a>
+        </div>
+
+      </div>
+
+
+      <!-- PHOTO SECTION -->
+      <div class="hero-image-wrapper">
+        <div class="image-card">
+
+          <img
+            id="profile-picture"
+            src="assets/image.jpg"
+            onerror="this.onerror=null; this.src='assets/me.jpeg';"
+            alt="Portrait of Burjukadi Pravalika"
+            class="profile-img"
+          />
+
+          <div class="photo-badge">
+            <span>💻 Python Developer</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- About Me Section -->
+  <section class="section about" id="about">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Getting to know me</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-text">
+
+            <p>
+             Hello! I am Burjukadi Pravalika, a final-year B.Tech CSE (Cyber Security) student from Hyderabad. I am interested in Python development and cybersecurity, and I enjoy learning by building practical projects.
+           </p>
+
+          <p>
+           I enjoy building practical applications using Python and learning new technologies. I have worked on projects related to web development, cybersecurity, and machine learning.
+          </p>
+
+          <p>
+           I am currently looking for an entry-level opportunity where I can use my Python, problem-solving, and cybersecurity skills while learning and growing as a developer.
+          </p>
+
+          <div class="stats-row">
+
+            <div class="stat-card">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+
+            <div class="stat-card">
+              <span class="stat-num">Python</span>
+              <span class="stat-label">Main Skill</span>
+            </div>
+
+            <div class="stat-card">
+              <span class="stat-num">2027</span>
+              <span class="stat-label">Graduation Year</span>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="about-card-info">
+
+          <h3 class="card-title">Quick Information</h3>
+
+          <ul class="info-list">
+            <li><strong>Location:</strong> <span>Hyderabad, India</span></li>
+            <li><strong>Degree:</strong> <span>B.Tech CSE (Cyber Security)</span></li>
+            <li><strong>Specialization:</strong> <span>Python Development &amp; Cyber Security</span></li>
+            <li><strong>Current Focus:</strong> <span>Python, Flask &amp; Cyber Security</span></li>
+            <li><strong>Availability:</strong> <span class="available-text">Open to entry-level opportunities</span></li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Core Competencies</span>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Frontend -->
+        <div class="skill-category">
+
+          <div class="cat-header">
+            <span class="cat-icon">🎨</span>
+            <h3>Programming &amp; Web</h3>
+          </div>
+
+          <div class="pill-group">
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">Python</span>
+            
+          </div>
+
+        </div>
+
+
+        <!-- Backend -->
+        <div class="skill-category">
+
+          <div class="cat-header">
+            <span class="cat-icon">⚙️</span>
+            <h3>Backend</h3>
+          </div>
+
+          <div class="pill-group">
+            <span class="pill">Python</span>
+            <span class="pill">Flask</span>
+            <span class="pill">SQLite</span>
+            
+          </div>
+
+        </div>
+
+
+        <!-- Tools & Practices -->
+        <div class="skill-category">
+
+          <div class="cat-header">
+            <span class="cat-icon">🛠️</span>
+            <h3>Tools &amp; Security</h3>
+          </div>
+
+          <div class="pill-group">
+            <span class="pill">GitHub</span>
+            <span class="pill">VS Code</span>
+            <span class="pill">Cyber Security</span>
+           
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Projects & Source Code Section -->
+  <section class="section projects" id="projects">
+
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag">Featured Work</span>
+
+        <h2 class="section-title">
+          Projects &amp; Source Code
+        </h2>
+
+        <p class="section-subtitle">
+          A few projects I have worked on while learning Python, cybersecurity, and machine learning.
+        </p>
+      </div>
+
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+
+          <div class="project-banner gradient-1">
+            <span class="project-type">Python/OpenCV</span>
+            <div class="project-symbol">🚀</div>
+          </div>
+
+          <div class="project-body">
+
+            <h3 class="project-title">
+             Face Recognition Attendance System
+            </h3>
+
+            <p class="project-description">
+              A face recognition-based attendance system that uses facial recognition for identity verification and automatically records attendance data.
+            </p>
+
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">NumPy</span>
+              <span class="tag">SQLite</span>
+            </div>
+
+            
+          </div>
+        </article>
+
+
+        <!-- Project 2 -->
+        <article class="project-card">
+
+          <div class="project-banner gradient-2">
+            <span class="project-type">Machine Learning</span>
+            <div class="project-symbol">📊</div>
+          </div>
+
+          <div class="project-body">
+
+            <h3 class="project-title">
+              Image Scam Detection Using Attention Capsule Network
+            </h3>
+
+            <p class="project-description">
+              A machine learning project that detects manipulated or fraudulent images by analyzing patterns and inconsistencies using an Attention Capsule Network.
+            </p>
+
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Keras</span>
+              <span class="tag">Image Processing</span>
+            </div>
+
+           
+          </div>
+        </article>
+
+
+        <!-- Project 3 -->
+        <article class="project-card">
+
+          <div class="project-banner gradient-3">
+            <span class="project-type">Cyber Security</span>
+            <div class="project-symbol">☁️</div>
+          </div>
+
+          <div class="project-body">
+
+            <h3 class="project-title">
+               Data Driven Security Risk Assessment
+            </h3>
+
+            <p class="project-description">
+              A Flask-based security risk assessment application that identifies vulnerabilities, evaluates their severity, and provides recommendations for reducing security risks.
+            </p>
+
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Flask</span>
+              <span class="tag">SQLite</span>
+              <span class="tag">Cyber Security</span>
+            </div>
+
+            
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+
+    <div class="container">
+
+      <div class="section-header">
+
+        <span class="section-tag">Let's Connect</span>
+
+        <h2 class="section-title">
+          Get In Touch
+        </h2>
+
+        <p class="section-subtitle">
+          Have a project in mind, looking for a collaborator, or just want to say hi? Feel free to reach out!
+        </p>
+
+      </div>
+
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+
+          <h3>Contact Details</h3>
+
+          <p>
+            I am always open to discussing web development, open-source projects, and new career opportunities.
+          </p>
+
+
+          <!-- Email -->
+          <div class="info-block">
+
+            <div class="icon-wrap">📧</div>
+
+            <div>
+
+              <span class="label">Email</span>
+
+              <a href="mailto:pravalikayadav1812@gmail.com" class="val">
+                pravalikayadav1812@gmail.com
+              </a>
+
+            </div>
+
+          </div>
+
+
+          <!-- LinkedIn -->
+          <div class="info-block">
+
+            <div class="icon-wrap">💼</div>
+
+            <div>
+
+              <span class="label">LinkedIn</span>
+
+              <a href="https://linkedin.com/in/pravalika82" target="_blank" rel="noopener noreferrer" class="val">
+                linkedin.com/in/pravalika82
+              </a>
+
+            </div>
+
+          </div>
+
+
+          <!-- GitHub -->
+          <div class="info-block">
+
+            <div class="icon-wrap">💻</div>
+
+            <div>
+
+              <span class="label">GitHub</span>
+
+              <a href="https://github.com/pravalika82" target="_blank" rel="noopener noreferrer" class="val">
+                github.com/pravalika82
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Contact Form -->
+        <form class="contact-form" id="contact-form">
+
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Alex Morgan" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="alex@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Hi! I saw your portfolio and would love to connect..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-submit">
+            <span>Send Message</span>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+
+          </button>
+
+          <div id="form-feedback" class="form-feedback"></div>
+
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <div class="container footer-container">
+
+      <p>
+        &copy; <span id="current-year"></span>
+        Burjukadi Pravalika. Built with HTML, CSS &amp; JavaScript.
+      </p>
+
+      <a href="#hero" class="back-to-top" aria-label="Back to top">
+        Back to Top ↑
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+
+</body>
+</html>
